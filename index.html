@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MD Smarter — Privacy Policy</title>
-<meta name="description" content="Privacy policy for the MD Smarter Chrome extension. MD Smarter does not collect, store or transmit any personal data.">
+<meta name="description" content="Privacy policy for the MD Smarter browser extension (Chrome, Edge, Firefox). MD Smarter does not collect, store or transmit any personal data.">
 <style>
   :root { --bg: #ffffff; --text: #1f2328; --muted: #656d76; --border: #d0d7de; --accent: #2563eb; --card: #f6f8fa; }
   @media (prefers-color-scheme: dark) {
@@ -36,7 +36,7 @@
 <main>
 
 <h1>MD Smarter — Privacy Policy</h1>
-<p class="meta">Effective date: October 2, 2026</p>
+<p class="meta">Effective date: October 2, 2026 · Last updated: October 6, 2026</p>
 <nav class="lang"><a href="#en">English</a> · <a href="#zh">简体中文</a></nav>
 
 <section id="en">
@@ -45,14 +45,14 @@
 </div>
 
 <h2>1. What MD Smarter does</h2>
-<p>MD Smarter is a Chrome extension that lets you open Markdown files from your computer or from the web, read and edit them, and export them to Word (.docx) or PDF.</p>
+<p>MD Smarter is a browser extension for Google Chrome, Microsoft Edge and Mozilla Firefox that lets you open Markdown files from your computer or from the web, read and edit them, and export them to Word (.docx) or PDF. This policy applies to all three versions.</p>
 
 <h2>2. Data we collect</h2>
 <p>None. We do not collect personal information, file contents, browsing history, usage statistics or crash reports. We do not use cookies, analytics or tracking tools, and we have no servers that receive your data.</p>
 
 <h2>3. How your files are handled</h2>
 <ul>
-  <li><strong>Local files</strong> are read only after you choose them (file picker or drag &amp; drop). Changes are written back only when you click Save or press Cmd/Ctrl+S, and only to the file you opened or chose.</li>
+  <li><strong>Local files</strong> are read only after you choose them (file picker or drag &amp; drop). Changes are written back only when you click Save or press Cmd/Ctrl+S, and only to the file you opened or chose. In Firefox, which does not allow add-ons to write to existing files, saving downloads a new copy instead.</li>
   <li><strong>Online files</strong> are downloaded directly from the address you open (for example, raw.githubusercontent.com). The request goes from your browser straight to that website; it does not pass through us.</li>
   <li><strong>Images</strong> referenced in a document are loaded from the websites that host them, just like in a normal web page.</li>
   <li><strong>Exports</strong> (Word and PDF) are created entirely in your browser and saved to a location you choose.</li>
@@ -60,7 +60,7 @@
 <p>Note: websites you open files or images from can see standard request information (such as your IP address), as with any web page you visit. Their own privacy policies apply.</p>
 
 <h2>4. Data stored on your device</h2>
-<p>MD Smarter uses Chrome's built-in extension storage only for the following, and it never leaves your device:</p>
+<p>MD Smarter uses the browser's built-in extension storage only for the following, and it never leaves your device:</p>
 <table>
   <tr><th>Item</th><th>Purpose</th><th>Where</th></tr>
   <tr><td>Theme choice</td><td>Remember light / dark / system theme</td><td><code>chrome.storage.local</code></td></tr>
@@ -73,14 +73,19 @@
 <h2>5. Permissions</h2>
 <table>
   <tr><th>Permission</th><th>Why it is needed</th></tr>
-  <tr><td><code>activeTab</code></td><td>When you click the toolbar icon, read the address of the current tab to check whether it is a Markdown file. Only active at the moment you click.</td></tr>
+  <tr><td><code>activeTab</code></td><td>When you click the toolbar icon, read the address of the current tab to check whether it is a Markdown file. Only active at the moment you click. (Local <code>file://</code> tabs can be read only in Chrome and Edge, and only if you turn on "Allow access to file URLs"; Firefox does not allow this.)</td></tr>
   <tr><td><code>scripting</code></td><td>Together with activeTab, read the text of the current Markdown tab so it can be displayed. Pages are never modified.</td></tr>
   <tr><td><code>storage</code></td><td>Store the preferences listed above and pass content from the tab to the reader page.</td></tr>
-  <tr><td>Optional site access (<code>http://*/*</code>, <code>https://*/*</code>)</td><td>Requested only when you open a link from a website for the first time, and only for that website. You can decline, and you can revoke it at any time in <code>chrome://extensions</code> → MD Smarter → Details → Site access.</td></tr>
+  <tr><td>Optional site access (<code>http://*/*</code>, <code>https://*/*</code>)</td><td>Requested only when you open a link from a website for the first time, and only for that website. You can decline, and you can revoke it at any time in the browser's extension settings (Chrome: <code>chrome://extensions</code>, Edge: <code>edge://extensions</code>, Firefox: <code>about:addons</code> → MD Smarter → Permissions).</td></tr>
 </table>
 
-<h2>6. Third-party links</h2>
-<p>The "☕ Support" button opens Buy Me a Coffee (buymeacoffee.com) in a new tab. That website is not operated by us and has its own privacy policy. MD Smarter shares no data with it.</p>
+<h2>6. Support page and third-party services</h2>
+<p>The "☕ Support" button opens a support page that is part of the extension. It offers two optional ways to donate:</p>
+<ul>
+  <li><strong>Buy Me a Coffee</strong> (buymeacoffee.com) — the button opens that website in a new tab. It is not operated by us and has its own privacy policy.</li>
+  <li><strong>Alipay</strong> — a QR code image that is included in the extension (it is not loaded from the internet). If you scan it, the payment happens entirely in the Alipay app, under Alipay's own privacy policy.</li>
+</ul>
+<p>MD Smarter shares no data with either service and does not know whether you donated.</p>
 
 <h2>7. Children</h2>
 <p>MD Smarter is not directed at children under 13 and does not knowingly collect any information from anyone.</p>
@@ -96,21 +101,21 @@
 
 <section id="zh" lang="zh-CN">
 <h1>MD Smarter 隐私政策</h1>
-<p class="meta">生效日期：2026 年 10 月 2 日</p>
+<p class="meta">生效日期：2026 年 10 月 2 日 · 最近更新：2026 年 10 月 6 日</p>
 
 <div class="summary">
   <p><strong>简而言之：</strong>MD Smarter 不收集、不存储、不出售、不传输任何个人数据。你打开、阅读、编辑和导出的所有内容都在浏览器本地处理。没有账号，没有统计分析，没有广告，我们也不运营任何服务器。</p>
 </div>
 
 <h2>1. MD Smarter 是什么</h2>
-<p>MD Smarter 是一个 Chrome 扩展程序，用于打开电脑或网络上的 Markdown 文件，阅读、编辑，并导出为 Word（.docx）或 PDF。</p>
+<p>MD Smarter 是一个适用于 Google Chrome、Microsoft Edge 和 Mozilla Firefox 的浏览器扩展，用于打开电脑或网络上的 Markdown 文件，阅读、编辑，并导出为 Word（.docx）或 PDF。本政策适用于以上三个版本。</p>
 
 <h2>2. 我们收集的数据</h2>
 <p>无。我们不收集个人信息、文件内容、浏览记录、使用统计或崩溃报告；不使用 Cookie、统计或追踪工具；也没有任何接收你数据的服务器。</p>
 
 <h2>3. 你的文件如何处理</h2>
 <ul>
-  <li><strong>本地文件</strong>：只有在你主动选择（文件选择器或拖拽）后才会读取；只有你点击"保存"或按 Cmd/Ctrl+S 时，才会写回你打开或选择的那个文件。</li>
+  <li><strong>本地文件</strong>：只有在你主动选择（文件选择器或拖拽）后才会读取；只有你点击"保存"或按 Cmd/Ctrl+S 时，才会写回你打开或选择的那个文件。Firefox 不允许扩展写入已有文件，因此在 Firefox 中保存会下载一份新文件。</li>
   <li><strong>在线文件</strong>：由你的浏览器直接从你打开的网址（例如 raw.githubusercontent.com）下载，不经过我们。</li>
   <li><strong>图片</strong>：文档中引用的图片从其所在网站加载，与普通网页相同。</li>
   <li><strong>导出</strong>：Word 和 PDF 完全在浏览器中生成，保存到你选择的位置。</li>
@@ -118,7 +123,7 @@
 <p>注意：与访问任何网页一样，你打开文件或图片所在的网站可以看到常规的请求信息（如 IP 地址），适用这些网站自己的隐私政策。</p>
 
 <h2>4. 存储在你设备上的数据</h2>
-<p>MD Smarter 仅使用 Chrome 自带的扩展存储保存以下内容，这些数据不会离开你的设备：</p>
+<p>MD Smarter 仅使用浏览器自带的扩展存储保存以下内容，这些数据不会离开你的设备：</p>
 <table>
   <tr><th>内容</th><th>用途</th><th>位置</th></tr>
   <tr><td>主题选择</td><td>记住浅色 / 深色 / 跟随系统</td><td><code>chrome.storage.local</code></td></tr>
@@ -131,14 +136,19 @@
 <h2>5. 权限说明</h2>
 <table>
   <tr><th>权限</th><th>用途</th></tr>
-  <tr><td><code>activeTab</code></td><td>点击工具栏图标时，读取当前标签页的地址，判断是否为 Markdown 文件。仅在点击的那一刻生效。</td></tr>
+  <tr><td><code>activeTab</code></td><td>点击工具栏图标时，读取当前标签页的地址，判断是否为 Markdown 文件。仅在点击的那一刻生效。（本地 <code>file://</code> 标签页仅在 Chrome 和 Edge 中、且你开启"允许访问文件网址"后才能读取；Firefox 不允许。）</td></tr>
   <tr><td><code>scripting</code></td><td>配合 activeTab 读取当前 Markdown 标签页的文字以便显示，从不修改页面。</td></tr>
   <tr><td><code>storage</code></td><td>保存上述偏好设置，并把标签页内容传给阅读器页面。</td></tr>
-  <tr><td>可选的网站访问权限（<code>http://*/*</code>、<code>https://*/*</code>）</td><td>仅在你第一次打开某个网站的链接时申请，且只针对该网站。你可以拒绝，也可以随时在 <code>chrome://extensions</code> → MD Smarter → 详情 → 网站访问权限 中撤销。</td></tr>
+  <tr><td>可选的网站访问权限（<code>http://*/*</code>、<code>https://*/*</code>）</td><td>仅在你第一次打开某个网站的链接时申请，且只针对该网站。你可以拒绝，也可以随时在浏览器的扩展设置中撤销（Chrome：<code>chrome://extensions</code>；Edge：<code>edge://extensions</code>；Firefox：<code>about:addons</code> → MD Smarter → 权限）。</td></tr>
 </table>
 
-<h2>6. 第三方链接</h2>
-<p>"☕ 支持"按钮会在新标签页打开 Buy Me a Coffee（buymeacoffee.com）。该网站不由我们运营，适用其自己的隐私政策。MD Smarter 不与其共享任何数据。</p>
+<h2>6. 支持页面与第三方服务</h2>
+<p>"☕ 支持"按钮会打开扩展内置的支持页面，提供两种自愿打赏方式：</p>
+<ul>
+  <li><strong>Buy Me a Coffee</strong>（buymeacoffee.com）：点击按钮会在新标签页打开该网站。该网站不由我们运营，适用其自己的隐私政策。</li>
+  <li><strong>支付宝</strong>：二维码图片随扩展一起提供（不从网络加载）。扫码后的支付完全在支付宝 App 中完成，适用支付宝的隐私政策。</li>
+</ul>
+<p>MD Smarter 不与上述服务共享任何数据，也无从得知你是否打赏。</p>
 
 <h2>7. 儿童</h2>
 <p>MD Smarter 并非面向 13 岁以下儿童，也不会有意收集任何人的信息。</p>
